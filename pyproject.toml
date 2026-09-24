@@ -1,0 +1,14 @@
+[project]
+name = "log-reader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[all]>=0.141.1",
+    "pywin32>=312",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+    "plotly>=7.1.0",
+]
